@@ -22,12 +22,12 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shide
 if not game:IsLoaded() then game.Loaded:Wait() end
 
 do -- UI
-	local Pendulum = Library:New("Pendulum Hub")
-	local SettingsTab = Pendulum:NewTab("Settings")
-	local CreditsTab = Pendulum:NewTab("Credits")
-	local OMGFESEX = Pendulum:NewTab("Sex 😏")
-	local LOL = Pendulum:NewTab("Bypass Audio Update")
-	local ScriptsTab = Pendulum:NewTab("Scripts")
+	local Pendulum = Library:New("Abaddon Hub V2")
+	local SettingsTab = Pendulum:NewTab("Config")
+	local CreditsTab = Pendulum:NewTab("Creditos")
+	local OMGFESEX = Pendulum:NewTab("+18 📸🤨")
+	local LOL = Pendulum:NewTab("Bypass Audio")
+	local ScriptsTab = Pendulum:NewTab("Principal")
 	local reanimtype = SettingsTab:NewLabel('Reanimation type: ' .. Global.Reanimation)
 	local flingtype = SettingsTab:NewLabel('Fling type: ' .. Global.FlingType)
 	SettingsTab:NewLabel('Note: HumanoidRootPart fling only works after permadeath is on')
@@ -46,7 +46,7 @@ do -- UI
 	end)
 	
 	do -- Reanimation Setting
-		SettingsTab:NewButton("Toggle Perma Death", "PermaDeath / Simple", function()
+		SettingsTab:NewButton("Alternar Perma Death", "PermaDeath / Simple", function()
 			if Global.Reanimation == "PermaDeath" then
 				Global.Reanimation = "Simple"
 				Global.Fling = 'Right Arm'
@@ -57,32 +57,34 @@ do -- UI
 				reanimtype.Text = 'Reanimation Type: PermaDeath'
 			end
 		end, true)
-		SettingsTab:NewButton("Toggle Fling Type", "Prediction only / Click only / Mixed", function()
+		SettingsTab:NewButton("Alternar tipo de Fling", "Apenas previsão / Clique apenas / Mixed", function()
 			if Global.FlingType == 'Mixed' then
 				Global.FlingType = 'Prediction only'
 			elseif Global.FlingType == 'Prediction only' then
-				Global.FlingType = 'Click only'
-			elseif Global.FlingType == 'Click only' then
+				Global.FlingType = 'Clique apenas'
+			elseif Global.FlingType == 'Clique apenas' then
 				Global.FlingType = 'Mixed'
 			end
-			flingtype.Text = 'Fling type: '.. Global.FlingType
+			flingtype.Text = 'tipo de Fling: '.. Global.FlingType
 		end,true)
 	end
 	
 	do -- ScriptsTab Buttons
-		ScriptsTab:NewButton("Neptunian V", "An original. If you want the hat join the discord.", function()
-			loadstring(game:HttpGetAsync("https://bit.ly/34oqvdH"))()
+		ScriptsTab:NewButton("🦅 Fly GUI", "Use para voar que nem maluco.", function()
+			--ABADDON HUB V2 FLY V2 SCRIPT BY ABADDON#0928
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+
 		end)
 
-		ScriptsTab:NewButton("Sonic", "All other versions don't fling except this one.", function()
-			loadstring(game:HttpGetAsync("https://bit.ly/3Cmw7BP"))()
+		ScriptsTab:NewButton("☢️ VOID", "Todas as outras versões são para Pc, exceto esta poderosíssima.", function()
+			loadstring(game:HttpGet("https://pastebin.com/raw/PzdLgAyV"))()
 		end)
 
-		ScriptsTab:NewButton("Joy", "Its got some cute stufff", function()
-			loadstring(game:HttpGetAsync("https://bit.ly/3IUQBUy"))()
+		ScriptsTab:NewButton("God OP", "Desenvolvido por nós... além de poder pular, vem com tool fling.", function()
+			loadstring(game:HttpGet(('https://pastefy.ga/xBdd9GId/raw'),true))()
 		end)
 
-		ScriptsTab:NewButton("Elio Blasio", "Literally anyone with a gun. If you want hats join the discord.", function()
+		ScriptsTab:NewButton("Farm normal", "Um Farm mais básico. Obs: Fique perto do Dummie.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/3HYO4ru"))()
 		end)
 
