@@ -30,7 +30,7 @@ do -- UI
 	local ScriptsTab = Pendulum:NewTab("Principal")
 	local reanimtype = SettingsTab:NewLabel('Tipo de reanimação: ' .. Global.Reanimation)
 	local flingtype = SettingsTab:NewLabel('Tipo de fling: ' .. Global.FlingType)
-	SettingsTab:NewLabel('Aviso: fling só funciona depois que o permadeath está ativado')
+	SettingsTab:NewLabel('Note:  fling só funciona depois que o permadeath está ativado')
 	local anim = Pendulum:NewTab('Animation ID Player')
 	local cwScriptsTab = Pendulum:NewTab('FE')
 	
