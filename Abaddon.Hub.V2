@@ -24,13 +24,13 @@ if not game:IsLoaded() then game.Loaded:Wait() end
 do -- UI
 	local Pendulum = Library:New("Abaddon Hub V2")
 	local SettingsTab = Pendulum:NewTab("Config")
-	local CreditsTab = Pendulum:NewTab("Creditos")
+	local CreditsTab = Pendulum:NewTab("Créditos")
 	local OMGFESEX = Pendulum:NewTab("+18")
 	local LOL = Pendulum:NewTab("Bypass Audio")
 	local ScriptsTab = Pendulum:NewTab("Principal")
-	local reanimtype = SettingsTab:NewLabel('Tipo de reanimação: ' .. Global.Reanimation)
-	local flingtype = SettingsTab:NewLabel('Tipo de fling: ' .. Global.FlingType)
-	SettingsTab:NewLabel('Note:  fling só funciona depois que o permadeath está ativado')
+	local reanimtype = SettingsTab:NewLabel('Reanimation type: ' .. Global.Reanimation)
+	local flingtype = SettingsTab:NewLabel('Fling type: ' .. Global.FlingType)
+	SettingsTab:NewLabel('Note: HumanoidRootPart fling only works after permadeath is on')
 	local anim = Pendulum:NewTab('Animation ID Player')
 	local cwScriptsTab = Pendulum:NewTab('FE')
 	
@@ -450,27 +450,27 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
     end
 		end)
 
-		ScriptsTab:NewButton("Xester", "O script mais forte de todos eles.", function()
+		ScriptsTab:NewButton("Xester", "The strongest script out of them all.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/35xGEyg"))()
 		end)
 
-		ScriptsTab:NewButton("Caducus", "cara demônio nervoso.", function()
+		ScriptsTab:NewButton("Caducus", "Edgy demon guy.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/3Cln304"))()
 		end)
 
-		ScriptsTab:NewButton("Minigun", "Divirta-se pulverizando patins.", function()
+		ScriptsTab:NewButton("Minigun", "Have fun spraying skids.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/3Cqns13"))()
 		end)
 
-		ScriptsTab:NewButton("espada relâmpago", "Semelhante ao Dual Last. é basicamente uma edição.", function()
+		ScriptsTab:NewButton("Lightning Sword", "Similar to Dual Ultima. its basiclly an edit.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/3CnTo6h"))()
 		end)
 
-		ScriptsTab:NewButton("Corrupted Overseer", "meu script favorito.", function()
+		ScriptsTab:NewButton("Corrupted Overseer", "My favorite script.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/3q8ECf5"))()
 		end)
 
-		ScriptsTab:NewButton("Darth Vadar", "Para os fãs de Star Wars.", function()
+		ScriptsTab:NewButton("Darth Vadar", "For the star wars fans.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/3vPlhD8"))()
 				end)
 		
@@ -478,7 +478,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 	end
 
 	do -- Degenerate Buttons
-		OMGFESEX:NewButton("meter básicokkk", "sexo masculino", function()
+		OMGFESEX:NewButton("Basic Bang", "Boy sex", function()
 			local number = "4966833843"
 
 			if Global.Dancing == true then
@@ -524,7 +524,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 
 		end)
 
-		OMGFESEX:NewButton([["Flexões"]], "sexo real", function()
+		OMGFESEX:NewButton([["Pushups"]], "Actual sex", function()
 			local number = "4966881089"
 
 			if Global.Dancing == true then
@@ -569,7 +569,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 			until Global.dancing == false
 
 		end)
-		OMGFESEX:NewButton("curvar", "sexo feminino", function()
+		OMGFESEX:NewButton("Bend Over", "Girl sex", function()
 			local number = "4966882047"
 
 			if Global.Dancing == true then
@@ -614,7 +614,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 			until Global.dancing == false
 
 		end)
-		OMGFESEX:NewButton("Deitar bang", "sexo feminino", function()
+		OMGFESEX:NewButton("Laydown Bang", "Girl sex", function()
 			local number = "4966879039"
 
 			if Global.Dancing == true then
@@ -659,7 +659,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 			until Global.dancing == false
 
 		end)
-		OMGFESEX:NewButton("Boquete", "sexo feminino", function()
+		OMGFESEX:NewButton("Blowjob", "Girl sex", function()
 			local number = "4963373273"
 
 			if Global.Dancing == true then
@@ -706,9 +706,9 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 		end)
 	end
 	
-	do -- Animação ID
+	do -- Animation ID
 		local id = anim:NewTextBar('ID da animação', 'Insira o ID da animação que deseja reproduzir')
-		anim:NewButton('Play','ele reproduz o id que você acabou de colocar acima😌', function()
+		anim:NewButton('Play','ele reproduz o id que você acabou de colocar acima 😌', function()
 			local number = id:GetText()
 
 			if Global.Dancing == true then
@@ -759,7 +759,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 		end)
 	end
 	
-	do -- Créditos
+	do -- Credits
 		CreditsTab:NewLabel("CEO do Abaddon Hub V2 🎌 ABADDON#0928")
 		CreditsTab:NewLabel("Créditos ao Nagato, parceiro ajudou na criação do Hub, scripts e na maioria das abas.")
 		CreditsTab:NewLabel("Créditos ao Nova, irmão do peito, sangue do meu sangue, nos ajudou em dicas, com scripts e curando Alzheimer do Abaddon.")
