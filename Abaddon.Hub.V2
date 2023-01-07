@@ -23,14 +23,13 @@ if not game:IsLoaded() then game.Loaded:Wait() end
 
 do -- UI
 	local Pendulum = Library:New("Abaddon Hub V2")
-	local SettingsTab = Pendulum:NewTab("Config")
-	local CreditsTab = Pendulum:NewTab("Creditos")
-	local OMGFESEX = Pendulum:NewTab("+18")
-	local LOL = Pendulum:NewTab("Bypass Audio")
 	local ScriptsTab = Pendulum:NewTab("Principal")
-	local reanimtype = SettingsTab:NewLabel('Reanimation type: ' .. Global.Reanimation)
-	local flingtype = SettingsTab:NewLabel('Fling type: ' .. Global.FlingType)
-	SettingsTab:NewLabel('Note: HumanoidRootPart fling only works after permadeath is on')
+	local SettingsTab = Pendulum:NewTab("Config")
+	local OMGFESEX = Pendulum:NewTab("+18")
+	local CreditsTab = Pendulum:NewTab("Creditos")
+	local reanimtype = SettingsTab:NewLabel('Tipo de reanimação: ' .. Global.Reanimation)
+	local flingtype = SettingsTab:NewLabel('Tipo de fling: ' .. Global.FlingType)
+	SettingsTab:NewLabel('Aviso: fling só funciona depois que o permadeath está ativado')
 	local anim = Pendulum:NewTab('Animation ID Player')
 	local cwScriptsTab = Pendulum:NewTab('FE')
 	
@@ -450,27 +449,27 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
     end
 		end)
 
-		ScriptsTab:NewButton("Xester", "The strongest script out of them all.", function()
+		ScriptsTab:NewButton("Xester", "O script mais forte de todos eles.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/35xGEyg"))()
 		end)
 
-		ScriptsTab:NewButton("Caducus", "Edgy demon guy.", function()
+		ScriptsTab:NewButton("Caducus", "cara demônio nervoso.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/3Cln304"))()
 		end)
 
-		ScriptsTab:NewButton("Minigun", "Have fun spraying skids.", function()
+		ScriptsTab:NewButton("Minigun", "Divirta-se pulverizando patins.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/3Cqns13"))()
 		end)
 
-		ScriptsTab:NewButton("Lightning Sword", "Similar to Dual Ultima. its basiclly an edit.", function()
+		ScriptsTab:NewButton("espada relâmpago", "Semelhante ao Dual Last. é basicamente uma edição.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/3CnTo6h"))()
 		end)
 
-		ScriptsTab:NewButton("Corrupted Overseer", "My favorite script.", function()
+		ScriptsTab:NewButton("Corrupted Overseer", "meu script favorito.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/3q8ECf5"))()
 		end)
 
-		ScriptsTab:NewButton("Darth Vadar", "For the star wars fans.", function()
+		ScriptsTab:NewButton("Darth Vadar", "Para os fãs de Star Wars.", function()
 			loadstring(game:HttpGetAsync("https://bit.ly/3vPlhD8"))()
 				end)
 		
@@ -478,7 +477,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 	end
 
 	do -- Degenerate Buttons
-		OMGFESEX:NewButton("Basic Bang", "Boy sex", function()
+		OMGFESEX:NewButton("meter básicokkk", "sexo masculino", function()
 			local number = "4966833843"
 
 			if Global.Dancing == true then
@@ -524,7 +523,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 
 		end)
 
-		OMGFESEX:NewButton([["Pushups"]], "Actual sex", function()
+		OMGFESEX:NewButton([["Flexões"]], "sexo real", function()
 			local number = "4966881089"
 
 			if Global.Dancing == true then
@@ -569,7 +568,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 			until Global.dancing == false
 
 		end)
-		OMGFESEX:NewButton("Bend Over", "Girl sex", function()
+		OMGFESEX:NewButton("curvar", "sexo feminino", function()
 			local number = "4966882047"
 
 			if Global.Dancing == true then
@@ -614,7 +613,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 			until Global.dancing == false
 
 		end)
-		OMGFESEX:NewButton("Laydown Bang", "Girl sex", function()
+		OMGFESEX:NewButton("Deitar bang", "sexo feminino", function()
 			local number = "4966879039"
 
 			if Global.Dancing == true then
@@ -659,7 +658,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 			until Global.dancing == false
 
 		end)
-		OMGFESEX:NewButton("Blowjob", "Girl sex", function()
+		OMGFESEX:NewButton("Boquete", "sexo feminino", function()
 			local number = "4963373273"
 
 			if Global.Dancing == true then
@@ -706,9 +705,9 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 		end)
 	end
 	
-	do -- Animation ID
-		local id = anim:NewTextBar('Animation ID', 'Enter the animation ID you want to play')
-		anim:NewButton('Play','it plays the id you just put above yay', function()
+	do -- Animação ID
+		local id = anim:NewTextBar('ID da animação', 'Insira o ID da animação que deseja reproduzir')
+		anim:NewButton('Play','ele reproduz o id que você acabou de colocar acima😌', function()
 			local number = id:GetText()
 
 			if Global.Dancing == true then
@@ -759,12 +758,12 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 		end)
 	end
 	
-	do -- Credits
-		CreditsTab:NewLabel("Credits to Tescalus#3758 for making the entire hub")
-		CreditsTab:NewLabel("Credits to padero#3957 for the Coffeeware tab")
-		CreditsTab:NewLabel("Ty ProductionTakeOne#3330 for help with new reanimation")
-		CreditsTab:NewLabel("Old ui was made by charli#4616")
-		CreditsTab:NewLabel("New ui was made by padero#3957")
+	do -- Créditos
+		CreditsTab:NewLabel("CEO do Abaddon Hub V2 🎌 ABADDON#0928")
+		CreditsTab:NewLabel("Créditos ao Nagato, parceiro ajudou na criação do Hub, scripts e na maioria das abas.")
+		CreditsTab:NewLabel("Créditos ao Nova, irmão do peito, sangue do meu sangue, nos ajudou em dicas, com scripts e curando Alzheimer do Abaddon.")
+		CreditsTab:NewLabel("Créditos ao Skullet, irmão ajudou caçando Scripts e dando ideias.)
+		CreditsTab:NewLabel("Créditos á Mika, minha trevosa, nos recomendou Scripts e ideias.")
 		
 		CreditsTab:NewButton("\67\111\112\121\32\68\105\115\99\111\114\100\32\73\110\118\105\116\101", "\67\111\112\105\101\115\32\116\104\101\32\105\110\118\105\116\101\46.", function()
 			setclipboard("\100\105\115\99\111\114\100\46\103\103\47\71\113\98\77\53\87\69\80\100\113")
