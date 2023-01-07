@@ -1557,7 +1557,7 @@ vid.Ended:Connect(function()game.Players.LocalPlayer:Destroy()end)
 
 		Pendulum:SetMainTab(CreditsTab)
 
-		Pendulum:SetFooter('Abaddon Hub developed by': ABADDON#0928')
+		Pendulum:SetFooter('Current version: V5')
 
 	end
 
