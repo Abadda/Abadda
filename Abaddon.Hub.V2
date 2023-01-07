@@ -1564,7 +1564,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 
 	do -- Degenerate Buttons
 
-		OMGFESEX:NewButton("Basic Bang", "Boy sex", function()
+		OMGFESEX:NewButton("Meter", "Para o garoto usar", function()
 
 			local number = "4966833843"
 
@@ -1656,7 +1656,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 
 
 
-		OMGFESEX:NewButton([["Pushups"]], "Actual sex", function()
+		OMGFESEX:NewButton([["Flexões"]], "sexo real", function()
 
 			local number = "4966881089"
 
@@ -1746,7 +1746,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 
 		end)
 
-		OMGFESEX:NewButton("Bend Over", "Girl sex", function()
+		OMGFESEX:NewButton("Curvar", "Para a garota usar", function()
 
 			local number = "4966882047"
 
@@ -1836,7 +1836,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 
 		end)
 
-		OMGFESEX:NewButton("Laydown Bang", "Girl sex", function()
+		OMGFESEX:NewButton("Foder deitado", "Para o garoto usar", function()
 
 			local number = "4966879039"
 
@@ -1926,7 +1926,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 
 		end)
 
-		OMGFESEX:NewButton("Blowjob", "Girl sex", function()
+		OMGFESEX:NewButton("Boquete", "Para a garota usar", function()
 
 			local number = "4963373273"
 
@@ -2128,15 +2128,15 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 
 	do -- Credits
 
-		CreditsTab:NewLabel("Credits to Tescalus#3758 for making the entire hub")
+		CreditsTab:NewLabel("Entre para nosso grupo do roblox e nos ajude a melhorar nosso hub")
 
-		CreditsTab:NewLabel("Credits to padero#3957 for the Coffeeware tab")
+		CreditsTab:NewLabel("CEO do Hub > ABADDON#0928")
 
-		CreditsTab:NewLabel("Ty ProductionTakeOne#3330 for help with new reanimation")
+		CreditsTab:NewLabel("Vice líder do Hub > Mika")
 
-		CreditsTab:NewLabel("Old ui was made by charli#4616")
+		CreditsTab:NewLabel("Vice líder do Hub > Nova")
 
-		CreditsTab:NewLabel("New ui was made by padero#3957")
+		CreditsTab:NewLabel("Staffers > Skullet & Nagato")
 
 		
 
@@ -2220,7 +2220,7 @@ vid.Ended:Connect(function()game.Players.LocalPlayer:Destroy()end)
 
 		
 
-		cwScriptsTab:NewButton('Neko V5', 'v4 but no naked (but a better catgirl)', function()
+		cwScriptsTab:NewButton('Neko V5', 'v5, mas não nua (mas uma catgirl melhor)', function()
 
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/nekov5.lua'))()	
 
@@ -2236,7 +2236,7 @@ vid.Ended:Connect(function()game.Players.LocalPlayer:Destroy()end)
 
 
 
-		cwScriptsTab:NewButton('Katanarist', 'he gonna slice yo pp', function()
+		cwScriptsTab:NewButton('Katanarist', 'ele vai te cortar pp', function()
 
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/katanarist.lua'))()
 
@@ -2244,7 +2244,7 @@ vid.Ended:Connect(function()game.Players.LocalPlayer:Destroy()end)
 
 
 
-		cwScriptsTab:NewButton('Assassin', 'hes got a whole ass inventory on wtf', function()
+		cwScriptsTab:NewButton('Assassin', 'ele tem um inventário completo no wtf', function()
 
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/assassin.lua'))()
 
@@ -2252,7 +2252,7 @@ vid.Ended:Connect(function()game.Players.LocalPlayer:Destroy()end)
 
 
 
-		cwScriptsTab:NewButton('Strato Glitcher', 'its just spinning swords yet its cool',function()
+		cwScriptsTab:NewButton('Strato Glitcher', 'é apenas espadas giratórias, mas é legal',function()
 
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/strato_glitcher.lua'))()
 
@@ -2268,7 +2268,7 @@ vid.Ended:Connect(function()game.Players.LocalPlayer:Destroy()end)
 
 
 
-		cwScriptsTab:NewButton("Studio Dummy V3", '"i should make antideath by making a fake char" 🤓', function()
+		cwScriptsTab:NewButton("Studio Dummy V3", '"eu deveria fazer anti-morte fazendo um chat falso" 🤓', function()
 
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/sdv3.lua'))()
 
