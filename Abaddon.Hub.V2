@@ -24,7 +24,7 @@ if not game:IsLoaded() then game.Loaded:Wait() end
 do -- UI
 	local Pendulum = Library:New("Abaddon Hub V2")
 	local SettingsTab = Pendulum:NewTab("Config")
-	local CreditsTab = Pendulum:NewTab("Créditos")
+	local CreditsTab = Pendulum:NewTab("Creditos")
 	local OMGFESEX = Pendulum:NewTab("+18")
 	local LOL = Pendulum:NewTab("Bypass Audio")
 	local ScriptsTab = Pendulum:NewTab("Principal")
@@ -707,8 +707,8 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 	end
 	
 	do -- Animation ID
-		local id = anim:NewTextBar('ID da animação', 'Insira o ID da animação que deseja reproduzir')
-		anim:NewButton('Play','ele reproduz o id que você acabou de colocar acima 😌', function()
+		local id = anim:NewTextBar('Animation ID', 'Enter the animation ID you want to play')
+		anim:NewButton('Play','it plays the id you just put above yay', function()
 			local number = id:GetText()
 
 			if Global.Dancing == true then
@@ -760,7 +760,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domai
 	end
 	
 	do -- Credits
-		CreditsTab:NewLabel("CEO do Abaddon Hub V2 🎌 ABADDON#0928")
+		CreditsTab:NewLabel("CEO do Abaddon Hub V2 🎌 ABADDON")
 		CreditsTab:NewLabel("Créditos ao Nagato, parceiro ajudou na criação do Hub, scripts e na maioria das abas.")
 		CreditsTab:NewLabel("Créditos ao Nova, irmão do peito, sangue do meu sangue, nos ajudou em dicas, com scripts e curando Alzheimer do Abaddon.")
 		CreditsTab:NewLabel("Créditos ao Skullet, irmão ajudou caçando Scripts e dando ideias.)
