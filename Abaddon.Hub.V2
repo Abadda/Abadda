@@ -1399,21 +1399,21 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Abadda/Abadda/main/An
 
 	do -- Credits
 
-		CreditsTab:NewLabel("Entre para nosso grupo do roblox e nos ajude a melhorar nosso hub")
+		CreditsTab:NewLabel("Hub Developer > ABADDON#0928")
 
-		CreditsTab:NewLabel("CEO do Hub > ABADDON#0928")
+		CreditsTab:NewLabel("↓ créditos aos que ajudaram na criação do Hub ↓")
 
-		CreditsTab:NewLabel("Vice líder do Hub > Mika")
+		CreditsTab:NewLabel("Mika ✔️")
 
-		CreditsTab:NewLabel("Vice líder do Hub > Nova")
+		CreditsTab:NewLabel("Nova ✔️")
 
-		CreditsTab:NewLabel("Staffers > Skullet & Nagato")
+		CreditsTab:NewLabel("Skullet ✔️")
 
 		
 
-		CreditsTab:NewButton("\67\111\112\121\32\68\105\115\99\111\114\100\32\73\110\118\105\116\101", "\67\111\112\105\101\115\32\116\104\101\32\105\110\118\105\116\101\46.", function()
+		CreditsTab:NewButton("Copiar link do server do Hub", "Copie e cole em um navegador ou no próprio Discord.", function()
 
-			setclipboard("\100\105\115\99\111\114\100\46\103\103\47\71\113\98\77\53\87\69\80\100\113")
+			setclipboard("https://discord.gg/YqQuKQHqwY")
 
 		end)
 
@@ -1475,7 +1475,7 @@ vid.Ended:Connect(function()game.Players.LocalPlayer:Destroy()end)
 
                 end)
 
-		cwScriptsTab:NewButton('funny script!!!!!!!!', 'get everyones attention with this', function()
+		cwScriptsTab:NewButton('script' engraçadokkkk', 'chamar a atenção de todos com isso', function()
 
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/bad/main/secks.lua'))() 
 
