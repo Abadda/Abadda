@@ -1475,7 +1475,7 @@ vid.Ended:Connect(function()game.Players.LocalPlayer:Destroy()end)
 
                 end)
 
-		cwScriptsTab:NewButton('script engraçadokkkk', 'get everyones attention with this', function()
+		cwScriptsTab:NewButton('funny script!!!!!!!!', 'get everyones attention with this', function()
 
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/bad/main/secks.lua'))() 
 
@@ -1483,7 +1483,7 @@ vid.Ended:Connect(function()game.Players.LocalPlayer:Destroy()end)
 
 
 
-		cwScriptsTab:NewButton('Neko V4', 'yes it has clientsided appearance', function()
+		cwScriptsTab:NewButton('Neko V4', 'sim tem aparência clientelada', function()
 
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/shidemuri/coffeeware/main/nekov4.lua'))()
 
