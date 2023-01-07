@@ -348,7 +348,7 @@ end
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domain/main/source'),true))()
 		end)
 
-		ScriptsTab:NewButton("Farm super rápida", "A FARM MAIS RÁPIDA DESENVOLVIDA POR NÓS!!", function(value)
+		ScriptsTab:NewButton("Farm super rápida", "A FARM MAIS RÁPIDA DESENVOLVIDA POR NÓS!!", function()
 			if Value == true then
         NewLoop = true
     else
