@@ -1399,15 +1399,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Abadda/Abadda/main/An
 
 	do -- Credits
 
-		CreditsTab:NewLabel("Hub Developer > ABADDON#0928")
+		CreditsTab:NewLabel("Entre para nosso grupo do roblox e nos ajude a melhorar nosso hub")
 
-		CreditsTab:NewLabel("↓ créditos aos que ajudaram na criação do Hub ↓")
+		CreditsTab:NewLabel("CEO do Hub > ABADDON#0928")
 
-		CreditsTab:NewLabel("Mika ✔️")
+		CreditsTab:NewLabel("Vice líder do Hub > Mika")
 
-		CreditsTab:NewLabel("Nova✔️")
+		CreditsTab:NewLabel("Vice líder do Hub > Nova")
 
-		CreditsTab:NewLabel("Skullet ✔️")
+		CreditsTab:NewLabel("Staffers > Skullet & Nagato")
 
 		
 
@@ -1475,7 +1475,7 @@ vid.Ended:Connect(function()game.Players.LocalPlayer:Destroy()end)
 
                 end)
 
-		cwScriptsTab:NewButton('script' engraçadokkkk', 'chamar a atenção de todos com isso', function()
+		cwScriptsTab:NewButton('script engraçadokkkk', 'get everyones attention with this', function()
 
 			loadstring(game:HttpGet('https://raw.githubusercontent.com/Tescalus/bad/main/secks.lua'))() 
 
