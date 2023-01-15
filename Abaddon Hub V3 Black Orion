@@ -1,0 +1,100 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Abadda/Abadda/main/Orion%20Library%20Ui')))()
+local Window = OrionLib:MakeWindow({Name = "Abaddon Hub", HidePremium = false, 
+IntroText = "Seja bem vindo(a) ao Abaddon Hub", SaveConfig = true, ConfigFolder = "Abaddon Hub"})
+
+OrionLib:MakeNotification({
+	Name = "Criador discord: ABADDON#0928",
+	Content = "Use essa merda com moderação em... Ah Quer saber? use do jeito que quiser.",
+	Image = "rbxassetid://4483345998",
+	Time = 15
+})
+
+local PVPTab = Window:MakeTab({
+	Name = "PvP",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = PVPTab:AddSection({
+	Name = "Scripts bom pra te deixar hulk"
+})
+
+PVPTab:AddButton({
+	Name = "HitBox Gui",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/6qrcYuE5"))()
+
+      		print("Hitbox executada")
+  	end    
+})
+
+PVPTab:AddButton({
+	Name = "Kill Aura v1",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Y0fZb2yZ"))()
+
+      		print("Killaura executada")
+  	end    
+})
+
+PVPTab:AddButton({
+	Name = "Fly Gui",
+	Callback = function()
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+
+      		print("Fly executada")
+  	end    
+})
+
+PVPTab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+      		print("Comandos de administração dado")
+  	end    
+})
+
+PVPTab:AddButton({
+	Name = "Melhor God",
+	Callback = function()
+loadstring(game:HttpGet(('https://pastefy.ga/xBdd9GId/raw'),true))()
+
+      		print("Agora você é imortal!")
+  	end    
+})
+
+local FARMTab = Window:MakeTab({ 	Name = "Farm", 	Icon = "rbxassetid://4483345998", 	PremiumOnly = false })
+
+local Section = FARMTab:AddSection({ 	Name = "Script bom pra te deixar hulk" })
+
+FARMTab:AddButton({ 	Name = "Farm boss (Griffin)", 	Callback = function()
+      local P = game.Players.LocalPlayer.Character.HumanoidRootPart
+P.CFrame = CFrame.new(196.7350616455078, 57.1785888671875, 469.31634521484375)
+
+while true do
+    wait()
+    if game:GetService("Workspace").NPC:FindFirstChild("Griffin") then
+        game:GetService("ReplicatedStorage").jdskhfsIIIllliiIIIdchgdIiIIIlIlIli:FireServer(
+                                    game:GetService("Workspace").NPC.Griffin.Humanoid,
+                                    5
+                                )
+                                wait()
+                                if game:GetService("Workspace").NPC:FindFirstChild("Griffin") then
+        game:GetService("Workspace").NPC.Griffin.Humanoid.Health = 0
+        end
+        
+    end
+      end
+      
+      print("Farm Griffin started!") 	end })
+
+local DSTRTab = Window:MakeTab({ 	Name = "Destruição", 	Icon = "rbxassetid://4483345998", 	PremiumOnly = false })
+
+local Section = DSTRTab:AddSection({ 	Name = "Script bom pra te deixar hulk" })
+
+DSTRTab:AddButton({ 	Name = "Jogar void", 	         Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/PzdLgAyV"))()
+ 		print("button pressed") 	end })
+
+OrionLib:Init()
